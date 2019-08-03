@@ -1,0 +1,59 @@
+[ 
+    {
+
+        "type" :"bar",
+        "label": "Data",
+        "backgroundColor":["#ff0000", "#3cb371", "#ffa500", "#0000ff","#009999","#6a5acd"],
+        "borderColor":["#ff0000", "#3cb371", "#ffa500", "#0000ff","#009999","#6a5acd"],
+        "borderSkipped":"top",
+        "hoverBackgroundColor":"ff0000",
+        "hoverBorderWidth":"#ff0000",
+        "xAxisID":"X-data",
+        "yAxisID":"y-data",
+
+        "options" :{
+            "scales": {
+                "xAxes": [{
+                    "barPercentage": 0.5,
+                    "barThickness": 6,
+                    "maxBarThickness": 8,
+                    "minBarLength": 2,
+                    "gridLines": {
+                        "offsetGridLines": true
+                    }
+                }]
+            }
+        }
+},
+
+{    "type" :"line",
+    "label": "Data",
+    "borderColor": "#80b6f4",
+    "pointBorderColor": "#80b6f4",
+    "pointBackgroundColor": "#80b6f4",
+    "pointHoverBackgroundColor": "#80b6f4",
+    "pointHoverBorderColor": "#80b6f4",
+    "pointBorderWidth": 10,
+    "pointHoverRadius": 10,
+    "pointHoverBorderWidth": 1,
+    "pointRadius": 3,
+    "fill": false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
